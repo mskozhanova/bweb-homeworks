@@ -18,7 +18,7 @@ print_r($_REQUEST);
 echo "</pre>";
 if($_REQUEST['submit']){
 	//подключаемся к БД
-	$DB_HOST='localhost:3306'; 
+	$DB_HOST='localhost'; 
 	$DB_USER=''; 
 	$DB_PASS='';
 	$DB_NAME='';
